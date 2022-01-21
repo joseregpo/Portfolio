@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!--script src="../js/main.js" defer></script-->
+    <script src="../js/main_V2.js" defer></script>
+    <title>Mon Projet</title>
+  </head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul class="navbar">
+        <li><a href="../index.html">Accueil</a></li>
+        <li><a href="Champions.html">Champions</a></li>
+        <li><a href="ProposerParoles.html">Proposer des Paroles</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id ="DonneJoueur" class="box">
+    <article id="idJoueur">
+      <h2>Donnez vos données pour essayer d'être le champion!</h2>
+      <input type="text" name="NomJoeur" id="NomJoeur" placeholder="Votre Nom" class="nameBox">
+      <input type="text" name="NomJoeur" id="PrenomJoeur" placeholder="Votre Prenom" class="nameBox">
+      <input type="text" name="NomJoeur" id="NumberJoueur" placeholder="Votre Numéro étudiant" class="nameBox">
+      <button id="ShowCategorie" type="button" class="button left">Aller voir catégories!</button>
+      <span class="loser" id="warning1">Veuillez remplir les 3 cases pour continuer!</span>
+    </article>
+  </section>
+  <section id="ChoixCatMusique" class="box">
+    <article class="ChoixCatMusique">
+    <h2>Veuillez choisir une catégorie de musique :</h2>
+    <form action="">
+      <ul id=Choix_Cat>
+      </ul>
+      <button id="SubmitCategorie" type="button" class="button">Choisir catégorie</button>
+      <span class="loser" id="warning2">Veuillez choisir 1 case pour continuer!</span>
+    </form>
+    </article>
+  </section>
+  <section id="jeu" class="box">
+    <article id="JeuInterface">
+      <h2>C'est l'heure de jouer</h2>
+      <h3 id="round"></h3>
+      <h3 id="points"></h3>
+      <p id="Question" class="txtJustified"></p>
+      <p class="txtJustified">Quelle est le nom de l'auteur?</p>
+      <form action="" class="formulaireJeu">
+        <ul id = "Choix">
+        </ul>
+        <button id="SubmitChoice" type="button" class="button" >Choisir</button>
+      </form>
+      <p id="Resultat"></p>
+    </article>
+  </section>
+  <section id="ResultatJeu" class="box">
+    <article>
+      <h2>C'est Fini</h2>
+      <p id="PoinstFinal"></p>
+      <a class="button" id="SendResults">Envoyer Résultats !</a>
+      <a href="Jeu.html" class="button">Rejouer !</a>
+    </article>
+  </section>
+  <footer>
+    <a class="contact" href="pages\Contact.html">Contact</a>
+    <h2>Chrono <strong id="timer">0</strong></h2>
+    <p class="refs">Site Web Conçu Par José Gregorio PEREZ OJEDA || CSS Flexbox is my friend :)</p> 
+  </footer>
+</body>
+
+
+</html>
