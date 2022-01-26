@@ -1,0 +1,180 @@
+ul  {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+#jeu {
+  display: none;
+}
+#ResultatJeu {
+  display: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+  color: #ffff;
+  height: 100vh;
+}
+.box {
+  flex-direction: column;
+  width: 50%;
+  justify-content:  center;
+  align-self: center;
+  text-align: center;
+  padding: 2%;
+  box-shadow: rgba(255, 255, 255, 0.829) 0px 5px 15px;
+  background-color: blanchedalmond;
+  color: #000;
+}
+.box > article {
+  align-items: center;
+}
+.Presentation{
+  text-align: center;
+  height: 20%;
+}
+.navbar{
+  display: flex;
+  flex-flow: row;
+  font-size: 18px;
+  width: 100%;
+  justify-content: space-around;
+  color: rgb(255, 0, 0);
+}
+.navbar a {
+  color: rgb(255, 0, 0);
+}
+#ChoixCatMusique{
+  display: none;
+}
+.ChoixCatMusique {
+  text-align: justify;
+}
+.formulaireJeu{
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.txtJustified{
+  text-align: justify;
+}
+footer{
+  font-size: 10px;
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  height: 30%;
+  align-items: flex-end;
+}
+.contact{
+  color: #ffff;
+  text-decoration: none;
+}
+.button {
+  background-color: blue;
+  color: antiquewhite;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 16px;
+  text-decoration: none;
+  width: 25%;
+  align-self: center;
+  font-family: 'Press Start 2P', cursive;
+}
+a {
+  text-decoration: none;
+}
+.Bienvenue{
+  text-align: justify;
+}
+.victoire {
+  color: blue;
+}
+.loser {
+  color: rgb(255, 0, 0);
+}
+.points {
+  color: rgb(255, 0, 0);
+}
+.round {
+  color: green;
+}
+.ContactSection {
+  display: flex;
+  flex-direction: column;
+}
+.image-container  {
+  display: flex;
+  width: 40%;
+  height: 20%;
+}
+.image-container {
+  display: flex;
+  height: 100%;
+  max-width: 100%;
+  border-radius: 30%;
+}
+.styled-table{
+  width: 80%;
+}
+.styled-table thead tr {
+  background-color: rgb(255, 0, 0);
+  color: #000;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+  padding: 1em 1em;
+  width: 80%;    
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+.evenRow {
+  border-bottom: 2px solid rgb(255, 0, 0);
+  font-weight: bold;
+  color: #000;
+}
+#ChampionsList {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.nameBox {
+  color: blue;
+  font-size: 0.7em;
+  padding: 10px;
+  border-radius: 16px;
+  text-decoration: none;
+  width: 75%;
+  font-family: 'Press Start 2P', cursive;
+}
+#DonneJoueur{
+  display: flex;
+}
+#idJoueur{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: baseline;
+}
+#idJoueur > h2 {
+  text-align: left;
+}
+.left {
+  align-self: baseline !important;
+}
+#warning1, #warning2, #warning3{
+  display: none;
+}
+#GoodMsg{
+  display: none;
+  color: green;
+}
